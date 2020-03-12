@@ -18,7 +18,7 @@ pipeline {
                                         }
                         stage('Third') {
 				when {
-					expression {EXECUTE == false
+					expression {EXECUTE == false}
 				     }
                                 steps {
                                         sh 'echo "Step Three"'
